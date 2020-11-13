@@ -1,0 +1,2 @@
+name: Label Fixed Issues
+uses: gh-bot/fix-labeler@master
