@@ -1,5 +1,12 @@
 name: Label issues when fixed on other branch
-on: push
+on:
+  push:
+    branches:
+      - 'master'
+      - 'dev'
+      - 'hotfix/**'
+      - 'release/**'
+      - 'feature/**'
 
 jobs:
   build:
